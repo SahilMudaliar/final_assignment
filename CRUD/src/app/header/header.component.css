@@ -1,0 +1,13 @@
+
+#header{
+    background-color: rgb(23, 22, 22);
+    width: 100vw;
+    height: 8vh;
+    margin: 0;
+    color: white;
+    text-align: center;
+    
+}
+#crudhead{
+    padding-top: 3vh;
+}
