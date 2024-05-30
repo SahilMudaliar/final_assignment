@@ -1,9 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T07:31:57.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.9" etag="FOqXQ0Jm6Z8rKG9nozjg" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T07:42:08.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QaNCMVBwiNAEmpm3hsQb" version="24.4.9" type="github">
   <diagram name="Page-1" id="ufSJV2j88opodC-rgxTJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DQ4ryyqdz8hx0GwscRTF-1" target="DQ4ryyqdz8hx0GwscRTF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DQ4ryyqdz8hx0GwscRTF-2" target="DQ4ryyqdz8hx0GwscRTF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-2" value="Retrieve information about the latest file we have uploaded to the box for the client to update." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="140" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DQ4ryyqdz8hx0GwscRTF-4" target="DQ4ryyqdz8hx0GwscRTF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-4" value="Based on the retrieved information, generate the required file name that needs to be checked at the box location." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="230" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DQ4ryyqdz8hx0GwscRTF-6" target="DQ4ryyqdz8hx0GwscRTF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-6" value="Create Box connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="320" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DQ4ryyqdz8hx0GwscRTF-8" target="DQ4ryyqdz8hx0GwscRTF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-17" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DQ4ryyqdz8hx0GwscRTF-12">
+          <mxGeometry x="0.2983" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DQ4ryyqdz8hx0GwscRTF-8" target="DQ4ryyqdz8hx0GwscRTF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-15" value="FASLE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DQ4ryyqdz8hx0GwscRTF-14">
+          <mxGeometry x="0.3824" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-8" value="Check if the updated file with&lt;div&gt;&amp;nbsp;the same name is present&lt;/div&gt;&lt;div&gt;&amp;nbsp;in the desired box folder.&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="420" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-11" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DQ4ryyqdz8hx0GwscRTF-13" value="Send Mail to PIC&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
