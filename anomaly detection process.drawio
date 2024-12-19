@@ -1,9 +1,91 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="u78k9vJQFtG7V1THuRCg">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-1" target="Uh6E2-ayI4zHIvLqF5BD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-1" target="Uh6E2-ayI4zHIvLqF5BD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-1" value="Process to check anomoly in data iterativily" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-2" target="Uh6E2-ayI4zHIvLqF5BD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-2" value="DATA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-4" target="Uh6E2-ayI4zHIvLqF5BD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-4" value="Process to create PDF from data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-6" target="Uh6E2-ayI4zHIvLqF5BD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-6" value="Process to push data into database&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=50;exitDy=36.5;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-9" target="Uh6E2-ayI4zHIvLqF5BD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Data from 4 model&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-12" value="To push this pdf to a box location and generate a email" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-14" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-12" target="Uh6E2-ayI4zHIvLqF5BD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-16" value="Retrive data with some filter from database and push it to domo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-18" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-16" target="Uh6E2-ayI4zHIvLqF5BD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uh6E2-ayI4zHIvLqF5BD-22" target="Uh6E2-ayI4zHIvLqF5BD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-31" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uh6E2-ayI4zHIvLqF5BD-30">
+          <mxGeometry x="-0.08" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-22" value="check whather mail&lt;div&gt;&amp;nbsp;is already generated&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Data from 4 model&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-28" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-29" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-12" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh6E2-ayI4zHIvLqF5BD-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="220" as="sourcePoint" />
+            <mxPoint x="800" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
